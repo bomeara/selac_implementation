@@ -129,5 +129,31 @@ print(comparison)
 ######################################################################################################################################
 ######################################################################################################################################
 
-results <- data.frame(model=c("SelAC with GTR", "SelAC with UNREST", "SelAC with UNREST, with among site variation set to median", "SelAC with UNREST, with among site variation set to quadrature"), LL=c(selac.gtr, selac.unrest, selac_gamma, selac_gamma_quad), stringsAsFactors=FALSE)
+
+
+
+
+######################################################################################################################################
+######################################################################################################################################
+### Test 5 -- Goldman Yang 94 implementation
+######################################################################################################################################
+######################################################################################################################################
+tree <- read.tree("rokasYeast.tre")
+phy <- drop.tip(tree, "Calb")
+yeast.gene <- read.dna("gene1Yeast.fasta", format="fasta")
+yeast.gene <- as.list(as.matrix(cbind(yeast.gene))[1:7,])
+chars <- selac:::DNAbinToCodonNumeric(yeast.gene)
+codon.data <- chars[phy$tip.label,]
+codon.data <- selac:::SitePattern(codon.data)
+gy94 <- selac:::GetLikelihoodGY94_YN98_CodonForManyCharGivenAllParams(log(c(1,1)), codon.data, phy, numcode=1, logspace=TRUE, verbose=FALSE, n.cores.by.gene.by.site=1)
+comparison <- identical(round(gy94,3), -7826.123)
+print(comparison)
+
+######################################################################################################################################
+######################################################################################################################################
+
+
+
+
+results <- data.frame(model=c("SelAC with GTR", "SelAC with UNREST", "SelAC with UNREST, with among site variation set to median", "SelAC with UNREST, with among site variation set to quadrature", "GY94"), LL=c(selac.gtr, selac.unrest, selac_gamma, selac_gamma_quad, gy94), stringsAsFactors=FALSE)
 write.csv(results, file="selac.csv", row.names=FALSE)
