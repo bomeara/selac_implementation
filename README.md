@@ -16,5 +16,5 @@ Parameter settings:
 * C.Phi.q.Ne = `4*4e-7*.5*5e6`
 * alpha = `1.829272`
 * beta = `0.101799`
-* base frequencies = all equal
+* unrest rate parameters = all equal
 * gamma alpha = 5
