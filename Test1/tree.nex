@@ -1,0 +1,27 @@
+#NEXUS
+[R-package APE, Tue Dec 10 11:16:26 2019]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 7;
+	TAXLABELS
+		Spar
+		Scer
+		Smik
+		Skud
+		Sbay
+		Scas
+		Sklu
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Spar,
+		2	Scer,
+		3	Smik,
+		4	Skud,
+		5	Sbay,
+		6	Scas,
+		7	Sklu
+	;
+	TREE * UNTITLED = [&R] ((((((1:0.037065566,2:0.061564118):0.034114387,3:0.08298618):0.03938384,4:0.08343469):0.034193236,5:0.08171907):0.25378215,6:0.379555):0.15085024,7:0.3222427);
+END;

@@ -1,0 +1,184 @@
+#NEXUS
+[Data written by write.nexus.data.R, Tue Dec 10 11:16:26 2019]
+BEGIN DATA;
+  DIMENSIONS NTAX=7 NCHAR=1701;
+  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    Scer      tctttattgacgtgtatggacaattcgcaattaacggcatcattctttgatgtgaaattttaccccgataataatactgt
+    Spar      tctttgttaacgtgcatggacaattcgcaattaacggcatcattctttgatgtaaaattttaccctgataataatactgt
+    Smik      tccttgctaacatgcatggacaattcgcaattaacggcatctttctttgatgtgaaattctaccctagcaataatactat
+    Skud      tctttgctaacgtgcatggataattcgcagttaacggcgtctttctttgacgtgaaattctaccctgataataatactgt
+    Sbay      tctttactaacgtgcatggataactcgcaattaacagcgtctttctttgacgtgaagttttaccccggcaacaacaccat
+    Scas      tcactattaacatgtatggataactcacaatttacagcatccttcttcgatgtcagatactatcctcacaataatactgt
+    Sklu      tctcttctaacgtgcatggtgaactcgcagttttcttccaccttttttgacgtcaagttttatccaggaaacaaaacagt
+
+    Scer      tatctttgatattgacgctacgacgacgcttgtcactgtgaaggctgagctgcttacttacggactgaaagtcctggata
+    Spar      tatttttgatattgacgctaccacgacgcttgtcactgtgaaggccgagttgcttacttatgggcttaaagtcctggata
+    Smik      tatctttgatatcgacgctaccacgacattggtcacagttaaggccgagctgctcgcctacgggcttaaggtgctggaca
+    Skud      catctttgatatagacgctaccacgacgcttgttaccgtgaaagcggagctgctcacttacggactcaaagtcctggaca
+    Sbay      tatctttgatatcgacgctaccacaacgctcgtcaccgtgaaggcggagcttctcgcctacgggctcaaaattctggaca
+    Scas      catatttaacgtcgatgccaccactaccatcgtcatcgtcaaggccgaattaatcacatacggtcttaacgtcatgaagc
+    Sklu      ggttttcaacattgacgcaactaccaccataatcgttgccaaagttgagctgatcgcgtatgggctgaacattttggaag
+
+    Scer      agacttttgatttatgtctttcccccctaagtgctgggcgtattgatgtcatgtccacacaggtgatcgaatcatccatt
+    Spar      agacctttgatttatgtctttgccccctaagcgctgggcgtattgatgttatgtctacacaagagatcgaatcatccatt
+    Smik      agaccttcgatctatgtctctgcccccttagcgctgggcgtattgatgttgtttctacacagcaagtcgacacttctatt
+    Skud      agacgtttgacctttgtctttgccccctaagcgctggccgtatcgatgtcatgtctacgtacgagatcgactcttccatc
+    Sbay      gaacttttgacctgtgtctgtgtcccctaagcgctgggcgtatcgatatcatgtccacatacgtgattgattcctctatc
+    Scas      aatctttcgatctatgtctgtgccctctttccgcaggaagaatcgatgtcagatcatcataccaaattgatgcagatgta
+    Sklu      agcaaatcgatttatgtatttgtccgttgagcgccggtagaatcgacgttcattccagttatactatcaacgacgacatt
+
+    Scer      accaagcaatttcccggcattgcttacaccattccagatttggacgcacaagtacgtgtggtggcatacgacacggaatt
+    Spar      accaagcaattccccggaattgcttacacgattccagatctggacgctcaagtccgtgtggtggcatacgatacggagtt
+    Smik      accaagcagatacccggtattgcttacaccattccagacttggatgctcaagtccgtgtagtggcatacgatacggagtt
+    Skud      accaagcagttccccggcattgcttacacgattccagacttggatgcccaggtccgcgtggtggcatacgatacggattt
+    Sbay      accaagcagtttcccggcatcgcgtatacgatcccagatctggacgcccaggtccgtgtggtggcatacgacaccagctt
+    Scas      ttgaaacaagtacccggcattgcatataccgtccctgatttagatgctcaagtgcgtgtcgtggcttatgatacatcctt
+    Sklu      gtggacaaaattcctggtattgcctatactattcctgacttggacgctcaggtgcgtgttattgcgtatgacgaggaatt
+
+    Scer      cgaaactccgctggcttgtgtccaggctatcttgagtaacgggaagacagtgcaaacaaagtatgcggcctggcccattg
+    Spar      tgaaactcccctagcttgtgttcaggctatcttgagtaatggaaaaactgtgcaaactaagtatgcagcttggcccattg
+    Smik      cgaaaaaccgctagcttgtgttcaggctatcttgagtaacggaaaaacggtacaaactaagtatgcagcttggcccatcg
+    Skud      cgaaacccccctcgcctgtgtgcaggctatcttgagtaacgggaagacagtgcagaccaagtacgcggcttggcccatcg
+    Sbay      cgaaaccccgcttgcttgcgtgcaggccatcctgagcaacgggaaaacagtgcagaccaagtatgcctcatggcccatcg
+    Scas      ctctacacccttggcatgtgttcaagccattgtctctaatgataaaaccgtacagactaaatatgcctcatggcccatcg
+    Sklu      cagcaccccgttggcctgtgttcaagcggttttgagtaacgacaagacagtgcagaccaagtacgcgtcctggccaattg
+
+    Scer      ccgctatctcaggtgtcggtgtacttacctcagggtttgtgtctgtgatcggttactcagccactgctgctcacattgcg
+    Spar      cagctatctcaggtgtcggtgtgcttacgtccgggtttgtgtctgtgatcggttactcagccacggctgctcacattgcg
+    Smik      cagctatctcaggtgttggtttgcttacgtccggatttgtttctgttattggttactcagccacggcggctcacattgca
+    Skud      ctgctatctccggtgtgggtgtgcttacgtccgggtttgtatccgtgatcggttattctgccacggctgcccacatcgcg
+    Sbay      ctgccatctcaggtgtcggtgtgctcacgtccgggtttgtgtctgtgatcggttactcctccactgccacgcatattgcc
+    Scas      ctgccgtatctggtattggtgtcttaacatccgggtttgtctcagttataggttatagtgccacttctgctcatatcgcg
+    Sklu      ccgccatttccggcttaggtgttctaacttctggttttgtgtctgttcttggccattccactacagcagctcacattgca
+
+    Scer      tccaactccatctcattgttcatatacttccaaaatctagctatcactgcaatgatgggtgtctcaagggttccacccat
+    Spar      tccaactccatctcattgtttatctacttccagaacctagctatcactgcaatgatgggcgtctcaagagttccacccat
+    Smik      tccaactccatctcactgttcatctatttccaaaatttggccattactgcaatgatgggtgtctcaagagtgccacctat
+    Skud      tcgaactccatctcgttgttcatctatttccaaaatctggccatcaccgcaatgatgggtgtctcaagagttccacccat
+    Sbay      tccaactcgatctcgctgtttatctacttccagaacctggccatcactgccatgatgggtgtttccagggtcccacccat
+    Scas      tccaattctatctcattgttcatctatttccaaaatttagccattacggcaatgatgggggtctcaagagtaccacctat
+    Sklu      tccaactccatctctctatttgtctactttcagaatttggccattacttctatgatggctgtgtcgaaggttcctccaat
+
+    Scer      tgctgccgcgtggacgcagaatttccaatggtccatgggtatcatcaatacaaacttcatgcaaaagatttttgattggt
+    Spar      tgctgccgcatggacgcaaaatttccaatggtctatgggtatcatcaatacgaaatttatgcagaatattttcgactggt
+    Smik      tgctgctgcatgggcgcaaaatttccaatggtctatgggtattatcaatgccaaattcatgcaaaagatcttcgattggt
+    Skud      tgctgccgcatggacgcaaaatttccagtggtctatgggcatcatcaacgcgggattcatgcagaagatcttcgattggt
+    Sbay      tgctgccgcatggacgcagaacttccaatggtcgatgggtatcatcaatgccggcttcatgcagaagatcttcgactggt
+    Scas      cgctgctgcatggactcaaaatttccaatggtccatggggatcattaacgcaggattcatgcaatctatatttaattggt
+    Sklu      cgctgccgcttgggcccaaaacttccaatggtccatgggtatcatcaatgccaagtttatgcaagacgcgttacactggt
+
+    Scer      acgtacaggccactaatggtgtctcaaatgttgtggtattgtccattagtgtgcaaaaaatctctatggcatcgtctagt
+    Spar      acgtacaggccactaacggtgtctccaatgttgtggtattgtccattagcgtgcaaaaaatttctatggcatcgtctagt
+    Smik      acgtacaagccaccaacggtgtatcgaatgtcgtggtattgtccattagcgtgcaaaaaatttccatggcatcttctagt
+    Skud      acgtgcaagccacgaatggagtctccaacgtcgtggtgctgtccatcagcgtgcaaaagatctctatggcctcgtcgagc
+    Sbay      acgtgcaagccactaacggtgtctccaacgtcgtggtgttgtctatcagcgtgcagaaaatctccgttgcctcgtctagc
+    Scas      acgtgcaagcaactaatggggtatctaccgtggtcgcactttccatttccgtgcaaaagatcacagtggcatccgctgat
+    Sklu      acgttcaagctaccggtggaacctctaccgtggttgttttgtctattgcggttcaaaaggtcagtgtttcatcttctaat
+
+    Scer      gattacaattttgacctgtacaccacttctgagaagtactcagccaagattctcgtgttaagaggtatagaaagagttgc
+    Spar      gattacaatttcgacttgtacacgacctctgagaagtattcagccaagatcctcgtgttaagaggtatagaaagggttgc
+    Smik      gattacaattttgacctttacacaacctcggaaaagtattcggccaagatcctcgttctgagaggtatagaaagagtcgc
+    Skud      gattacaatttcgacctgtacaccacctctgagaagtactcgaccaagatcctcgtgctgagaggtatagaaagagtcgc
+    Sbay      gattacaatttcgacctgtacaccacttccgaaaagtactcgaccaagattctcgtgctaagaggtatcgaaagagtcgc
+    Scas      gattataatttcgacttatatactacaaatgaacgttactcaacaagaatcatcgtcctgagggggattcaacgtgtcgc
+    Sklu      gagaacaatttcgatttgtataccaccactgaaagattttcctcgaaaattttggttcttcatggtattcaacgtgttgc
+
+    Scer      ttatttggctaatattgagctatctaatttctttttgaccggtattgtgttttttctattcttcctatttgtagttgtcg
+    Spar      ttacttagccaatatcgagttgtctaatttctttttgactggtattgtgttttttttatttttcttatttgttgttgtcg
+    Smik      ttacttagcaaatattgaattgtctaacttctttttaaccggtattgtttttttccttttcttcctctttgttgttgtcg
+    Skud      atacttggccaacatcgaactgtccaatttcttcttgacgggtattgtgtttttccttttcttcctctttgttgttgttg
+    Sbay      gtatttggcaaacatcgaactgtccaattttttcttaacagggattgtcttctttctgttctttgtcttcgttgttatcg
+    Scas      attcaaggcaaacatcgaattatcaaatttcttcctcacaggtactgtgtttttcttgtttttcctattcgtcgtcatcg
+    Sklu      ctatatggccggtatcgaactgtcgaactttttcctaacaggtatcgttttcttcctatttttcgtttttgttgttattg
+
+    Scer      tctctttgattttctttaaggcgctattggaagttcttacaagagcaagaatattgaaagagtatttcttccaatatagg
+    Spar      tctctttgattttcttcaaggccctgctggaagttcttacaagagcaagaatcttgaaagagaatttcttccaatacagg
+    Smik      cctctctgattttcttcaaagccctactagaagttctcacgagggcaagaatcttaaaagagaattttttccaatacaga
+    Skud      tgtctttgatcttcttcaaggctctgctggaagtcctgacaagagcaagaatcttgaaagagaatttcttccagtacagg
+    Sbay      tttctttgattttcttcaaagccttgctagaagttttgacaagagccgggattctgaaagagaatttcttccaatacagg
+    Scas      tatccatgatcttctttaaagctttgattgaagtgttaaccagagctagaattatggctgagaatttctttcaatatagg
+    Sklu      tctgtttgatttttttcaaagctttagtcgaagttttgacaagagctcgtgtgatgaccgaaaagtttttcgagtataga
+
+    Scer      aagaactgggggagtattatcaaaggcacccttttcagattatctatcatcgccttccctcaagtttctcttctggcgat
+    Spar      aagaactgggggagtatcatcaagggcacccttttcagattatctatcatcgctttccctcaagtttctcttctggcgat
+    Smik      aagaactggggaagcatcattaaaggtacacttttcaggttatccatcatcgcgttccctcaagtttctctattggccat
+    Skud      aaaaactggggcagcatcatcaaaggtactcttttcaggttggccatcatcgcgttccctcaggtttcgcttttggccat
+    Sbay      aaaaactgggggagcatcatcaagggtactcttttcagactgtccatcattgcgttccctcaagtctcgctattgaccat
+    Scas      aaaaattgggggagtatcattaaggggacgttatttagattggctatcattgcattcccacaaatttccttattaactat
+    Sklu      aagagttggggtaatattatcaagggtactttgttcagattgtccattattgcattccctcaagtgtctattctcaccat
+
+    Scer      ttgggaatttactcaggtcaactctccagcgattgttgttgatgcggtagtaatattactgatcatcacgggacttctgg
+    Spar      ttgggagtttactcaggtcaactctccagcaattgttgttgatgcggtggtaatattattgatcatcacaggacttctgg
+    Smik      ttgggaattcactcaggtgaactctccagcaattgttgttgatgccgtgataatattattgatcattacaggactcttgg
+    Skud      ttgggagttcacccaggtcaactctccagctgttgttgtcgacgcggtgataatcctattggtcgtgacagggcttttgg
+    Sbay      ttgggaattcacccaagtggactctccggcaatcgtcgtcgatgcagtcgtgatcttgttggtcattactgggctgttag
+    Scas      ttgggaattcactcaagcggattctccagcggtagtggttgatgccgtggtaatattcattgtcatcacaggtttattaa
+    Sklu      atgggaattcacccaacgtgactctgcagcaactttggttagtgccattgtcattttagccgttgtattcggtctactgc
+
+    Scer      tttatggaactataagggttttcatcaagggaagagagtctctcagattatacaagaatcctgcgtacctactttacagt
+    Spar      tttatggaactataagagttttcatcaagggaagagagtctctaagattatacaagaatcctgcgtacctgctctacagt
+    Smik      tttatggaactataagagttttcatcaagggaaaagaatctttaaggttatataagaatcctgcgtaccttctttacagt
+    Skud      tttacggaactacaagggttttcatcaagggaagagaatctttgagattgtacaagaaccctgcatatctgctttacagt
+    Sbay      tttacggaaccacaagagttttcatcaaggggagggagtcgctcagactatacaagaaccctgcatatttgctttacagc
+    Scas      tgtacggtactacaagagtcatgataaagggtagggagtcattacgtctatacaaaaaccctgcatacctattatattcc
+    Sklu      tatacggtgttgtgagagttaccctgagagccagagagtcggttcggatgtacaagactccggcctatctgttgtatggc
+
+    Scer      gatacctacttcttgaacaagtttgggttcttatacgttcaattcaaagcagataagttttggtggcttttacccttatt
+    Spar      gatacctatttcttgaacaagttcgggttcttatacgttcaattcaaagccgataaattttggtggcttttgcccctgtt
+    Smik      gacacctactttttgaacaagttcgggttcttatacgtgcaattcaaagccgataaattctggtggcttttacccctgct
+    Skud      gatacctattttctgaacaagttcgggttcttatacgtgcaattcaaagccgacaagttttggtggcttttacccttcct
+    Sbay      gatacctactttttaaacaaattcgggtttttatacgtgcaattcaaagcagacaaattttggtggcttttacccctact
+    Scas      gattctcatttcttgaatcgttatgggttcctttacgttcaatttagagctgatgccttctggtggttagtgcccatgtt
+    Sklu      gattccaactttctgaacaggtttggtttcctttacgttcaattcaaagctgacatgtattggtggctaatcccattgct
+
+    Scer      aagttatgcgttcttaagatccctgtttgttgccgttttacaaaaccaaggtaaggctcaagcaatgatcatctttgtca
+    Spar      aagttatgcgtttttaagatccttgtttgttgccgttttacaaaaccaaggtaaggcgcaagcgatgatcatttttgtca
+    Smik      aagttatgcattcttaaggtctctctttgttgctgttttacaaaaccagggtaaagcgcaagcaatgatcatctttgtca
+    Skud      aagctatgcgtttttgagatcgctgtttgttgctgttctacaaaaccaaggtaaggcgcaagcgatgatcattttcgtca
+    Sbay      gagttatgcctttttaagatcggtttttgttgctgttttacaaaaccaaggtaaagcccaggccatgattatttttatca
+    Scas      atcatacgctttcttaagatctctatttgttgcagtgttacaaaatcaaggtaaggcacaggcaatggttatcttcgtca
+    Sklu      aacttacgctttcttcagatccttgtttgttgccgttttacaaaacgagggaaaggcacaagccatgatcatctttgtca
+
+    Scer      ttgaactagcttacttcgtttgtctctgttggataagaccatatttggacaagagaactaatgttttcaatattgctatt
+    Spar      ttgaactagcatacttcgtttgtctgtgctggataagaccatatttggacaagagaactaatgttttcaatattgctatt
+    Smik      ttgaactagcctatttcgtttttctgtgttggatcaggccatatctagacaagagaactaacattttcaatattgccatt
+    Skud      ttgaattggcgtacttcgtttgtctgtgctggatcagaccctatttggacaagaggaccaacgttttcaatattgccatc
+    Sbay      ttgaactggtatattttgtttgcctgtgctggattagaccatatttggacaagagaaccaacgttttcaatattgctatc
+    Scas      ttgaattgatctatttcgtggtcctatgttggatcagaccatatttggataagagaacaaatatctttaacatcgccatc
+    Sklu      tcgaattggcctatttcattgccttgtgttgggctaggccttatttggacaagcggacaaacgccttcaacatcgctatc
+
+    Scer      catttggtgaatttgatcaatgcatttttctttttgtttttcagtaatttgttcaagcaaccagcagtggtttcgtcagt
+    Spar      catttggttaatttaatcaacgcatttttctttttgttttttagcaatttgttcaagcaacccgcagtggtttcgtcagt
+    Smik      catttggtgaatttaattaacgcttttttctttttgttctttagtaatttgttcaagcaacctgcagtggtttcatctgt
+    Skud      catctggtcaatttgataaacgcatttttctttttgttcttcagcaatttgttcaagcaacccgcagtggtatcgtctat
+    Sbay      catctggtgaatatgatcaacgcgttcttctttttattcttcagtaatttgttcaaacaaccagcagtggtttcctcggt
+    Scas      catttggttaatttgattaattccatcttcttccttttcttttctaatttgttcaaacaacctgctattgtgtcctccgt
+    Sklu      cacttgatcaactttttgaactctttgttctttttgttcttttcgaacttgttcaaacaacctccagtggtgtcctctgt
+
+    Scer      gatggcggttattctgttcgttttgaacgcggtgtttgctctattcctattattgttcactattgtcacctgtacactgg
+    Spar      gatggcagttattttattcgtcctgaacgcggtgtttgctctgttcctattactgttcactattgttacgtgtacattgg
+    Smik      tatggcggttattttgtttattttgaacgcagtgttcgctcttttcctgttattattcactatcgtcacatgcacattgg
+    Skud      aatggcggtcattctgttcgttctgaatgcagtgttcgctctatttctactattattcactattgtcacctgcaccttgg
+    Sbay      gatggcggtgattttgtttgttttgaatgcagtgttcgccctgttcttactactattcaccattgtcacctgtactttgg
+    Scas      catggctgtcattttgttcgtcttgaatgctgtgtttgccctattcttactttgtttcaccattgtgacatgtgcattag
+    Sklu      catggccattgtgttgtttgtattaaacgccgtttttgcccttttcctgttgattttcaccattgtcacttgtactctag
+
+    Scer      cattactacacagaaacccagatgtccgttaccaaccaatgaaagatgaccgtgtgtcattcattcctaagcctgtgcaa
+    Spar      cgttactacacagaaacccagatgtccgttaccaaccaatgaaggatgatcgtgtgtcatttatccctaagccggtccag
+    Smik      cgttgttacacaggaacccagacgtccgttaccagcccatgaaggatgaccgtgtgtcctttatccctaagcctgtacaa
+    Skud      cgttgctgcacagaaacccagatgttcgttaccagccaatgaaagatgaccgtgtgtctttcatccccaagcccgtccaa
+    Sbay      cgttgatacacagaaacccagacgttcgttaccaaccaatgaaggacgaccgtgtgtccttcatccccaagccggtacaa
+    Scas      cattaattcatagaaaccctgacatccgttatcaaccaatgaaggacgatcgtgtatctttcattccaaagccagcgaaa
+    Sklu      cattactccacagaaacccagacgctcgctaccaaccaatgaaggacgatcgtgtttccttcatccccaagcctttgcaa
+
+    Scer      ccaacctccgctgtcatgggt
+    Spar      cccacctctgctgttatgggt
+    Smik      cccacctctgctgtcatgggc
+    Skud      cccgcatctgctgttatgggc
+    Sbay      cccacatctgccgtcatgggc
+    Scas      ccagcatctgctgtgttcggt
+    Sklu      ccaacgtcggcagttctgggc
+  ;
+END;
+

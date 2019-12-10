@@ -14,6 +14,9 @@ tree <- read.tree("rokasYeast.tre")
 phy <- drop.tip(tree, "Calb")
 yeast.gene <- read.dna("gene1Yeast.fasta", format="fasta")
 yeast.gene <- as.list(as.matrix(cbind(yeast.gene))[1:7,])
+write.nexus.data(yeast.gene, file="dna.nex")
+write.nexus(phy, file="tree.nex")
+
 chars <- selac:::DNAbinToCodonNumeric(yeast.gene)
 codon.data <- chars[phy$tip.label,]
 aa.data <- selac:::ConvertCodonNumericDataToAAData(codon.data, numcode=1)
@@ -120,8 +123,8 @@ codon.data <- rbind(codon.data, aa.optim.frame.to.add)
 codon.data <- selac:::SitePattern(codon.data, includes.optimal.aa=TRUE)
 aa.optim = codon.data$optimal.aa
 codon.index.matrix = selac:::CreateCodonMutationMatrixIndex()
-selac_gamma <- selac:::GetLikelihoodSAC_CodonForManyCharGivenAllParams(log(c(4*4e-7*.5*5e6, 1.829272, 0.101799, rep(1,11), 5)), codon.data, phy, aa.optim_array=aa.optim, codon.freq.by.aa=codon.freq.by.aa, codon.freq.by.gene=codon.freq.by.gene, numcode=1, diploid=TRUE, aa.properties=NULL, volume.fixed.value=0.0003990333, nuc.model="UNREST", codon.index.matrix, include.gamma=TRUE, gamma.type="quadrature", ncats=4, k.levels=0, logspace=TRUE, verbose=FALSE, n.cores.by.gene.by.site=1)
-comparison <- identical(round(selac_gamma, 3), -6998.186)
+selac_gamma_quad <- selac:::GetLikelihoodSAC_CodonForManyCharGivenAllParams(log(c(4*4e-7*.5*5e6, 1.829272, 0.101799, rep(1,11), 5)), codon.data, phy, aa.optim_array=aa.optim, codon.freq.by.aa=codon.freq.by.aa, codon.freq.by.gene=codon.freq.by.gene, numcode=1, diploid=TRUE, aa.properties=NULL, volume.fixed.value=0.0003990333, nuc.model="UNREST", codon.index.matrix, include.gamma=TRUE, gamma.type="quadrature", ncats=4, k.levels=0, logspace=TRUE, verbose=FALSE, n.cores.by.gene.by.site=1)
+comparison <- identical(round(selac_gamma_quad, 3), -6998.186)
 print(comparison)
 ######################################################################################################################################
 ######################################################################################################################################
