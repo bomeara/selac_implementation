@@ -129,5 +129,5 @@ print(comparison)
 ######################################################################################################################################
 ######################################################################################################################################
 
-
-
+results <- data.frame(model=c("SelAC with GTR", "SelAC with UNREST", "SelAC with UNREST, with among site variation set to median", "SelAC with UNREST, with among site variation set to quadrature"), LL=c(selac.gtr, selac.unrest, selac_gamma, selac_gamma_quad), stringsAsFactors=FALSE)
+write.csv(results, file="selac.csv", row.names=FALSE)
